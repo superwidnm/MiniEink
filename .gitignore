@@ -1,0 +1,38 @@
+# ===== Altium Designer =====
+# 自动备份与历史
+History/
+Backup of *
+*.~(9)*
+*.~[0-9][0-9]*
+*.bak
+*.ddb
+# 工程自动生成的缓存与预览
+__Previews/
+Project Outputs for */
+*.SchDocPreview
+*.PcbDocPreview
+*.PrjPcbPreview
+*.PcbDoc.htm
+*.SchDoc.htm
+*.OutJob.htm
+# 本地导出报告
+*Report.htm
+*.ECO
+
+# ===== SolidWorks =====
+~$*
+*.swp
+*.tmp
+*.SLDBLK
+*.sldblk
+# 备份副本（* - 副本.SLDPRT 之类）
+*副本*
+*备份*
+*backup*
+
+# ===== 系统 / 编辑器 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/

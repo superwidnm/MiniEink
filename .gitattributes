@@ -1,0 +1,25 @@
+# 统一换行符
+* text=auto eol=lf
+
+# 文本文件
+*.md      text eol=lf
+*.txt     text eol=lf
+*.PrjPcb  text eol=crlf
+*.OutJob  text eol=crlf
+*.PrjPcbStructure text eol=crlf
+
+# 二进制文件：不做行尾转换、不做文本 diff
+*.PcbDoc  binary
+*.SchDoc  binary
+*.PCB      binary
+*.SCH      binary
+*.SLDPRT  binary
+*.SLDASM  binary
+*.SLDDRW  binary
+*.xlsx    binary
+*.xls     binary
+*.pdf     binary
+*.3MF     binary
+*.stl     binary
+*.step    binary
+*.stp     binary
